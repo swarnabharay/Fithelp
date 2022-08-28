@@ -16,6 +16,6 @@ jobs:
         with:
           github-token: ${{ secrets.NPM_TOKEN }}
           owner-name: "IAmTamal"
-          repository-name: "Milan"
+          repository-name: "Project-fifth"
           force: true
           # force: true # optional to clear existing labels, default to true
