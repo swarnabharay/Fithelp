@@ -17,6 +17,8 @@ app.get("/", (req, res) => {
 
 app.use("/assignment", require("./routes/AssignmentRoutes"));
 
+app.use("/display", require("./routes/DisplayRoutes"));
+
 app.listen(port, () => {
   console.log("API IS RUNNING 🚀");
 });
