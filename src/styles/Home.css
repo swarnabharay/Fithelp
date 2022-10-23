@@ -13,7 +13,7 @@
         font-size: 70px;
         line-height: 98px;
         position: relative;
-        top: 24px;
+        top: 46px;
         left: 67px;
         display: flex;
     }
@@ -26,6 +26,7 @@
   .mainimg{
     width: 454px;
     height: 419px;
+    padding-top: 50px;
   }   
 .contain3{
         position: absolute;
@@ -45,7 +46,7 @@ span{
  .buttons{
     display: flex;
     position: relative;
-    top: -181px;
+    top: -121px;
     padding-left: 57px;
     justify-content: space-between;
     text-decoration: none;
@@ -68,9 +69,9 @@ span{
     height: 23px;
    position: relative;
    left: -7px;
-   top: 5px;
+   top:-2px;
 }
-.link{
+.Link{
     text-decoration: none;
 }
 .button2{
