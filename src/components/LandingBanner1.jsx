@@ -1,28 +1,44 @@
-import React from 'react'
-import proj from '../assets/images/project.png';
-import google from '../assets/images/Google.png';
-import email from '../assets/images/mail.png';
-import { Link } from 'react-router-dom';
-import '../styles/Home.css';
+import React from "react";
+import "../styles/LandingBanner1.css";
+import WelcomeImage from "../assets/images/project.png";
+import { AiFillMail, AiOutlineGoogle } from "react-icons/ai";
+import { FcGoogle } from "react-icons/fc";
 
 const LandingBanner1 = () => {
     return (
         <>
-            <div className="contain1">Let's make Project management easy!</div>
-            <div className="contain2">
-                <img src={proj} alt="" className='mainimg' />
-            </div>
-            <div className="contain3"><span>ToDo Room</span> is free to use as long as you want!</div>
-            <div className='buttons'>
-            <Link to="/Signup" className='Link'>
-                <button className='button1'><img src={email} alt="" className='butimg' /> SIGN UP WITH EMAIL</button>
-            </Link>
-            <Link to="/Signup" className='Link'>    
-                <button className='button2'><img src={google} alt="" className='butimg' />SIGN UP WITH GOOGLE</button>
-             </Link>    
+            <div className="container-fluid landing_welcome_parent_main">
+                <div className="landing_welcome_parent">
+                    {/* //* BAA DIK ER DIV TA */}
+
+                    <div className="landing_welcome_textdiv">
+                        <h1>Let’s make project management easy!</h1>
+                        <p>
+                            {" "}
+                            <span>ToDo Room</span> is free to use as long as you want!
+                        </p>
+
+                        <div className="signup_button_div">
+                            <button className="btn  signup_button button_email">
+                                <AiFillMail className="signup_button_icon" />
+                                SIGN UP WITH EMAIL
+                            </button>
+                            <button className="btn  signup_button button_google">
+                                <FcGoogle className="signup_button_icon" />
+                                SIGN UP WITH GOOGLE
+                            </button>
+                        </div>
+                    </div>
+
+                    {/* //* DAN DIK ER DIV */}
+
+                    <div className="landing_welcome_imagediv">
+                        <img src={WelcomeImage} alt="welcome" />
+                    </div>
+                </div>
             </div>
         </>
-    )
-}
+    );
+};
 
-export default LandingBanner1
+export default LandingBanner1;
