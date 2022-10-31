@@ -37,7 +37,7 @@ const LandingBanner1 = () => {
                     </div>
                 </div>
             </div>
-        </> -->
+        </>
      );
 };
 
