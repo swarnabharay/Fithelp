@@ -1,0 +1,170 @@
+.bigdiv {
+    display: flex;
+
+}
+
+.login {
+    height: 737px;
+    width: 504px;
+    object-fit: cover;
+    margin-top: -9px;
+    margin-left: -8px;
+}
+
+.navleft {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+.navright {
+    font-family: "Montserrat";
+}
+
+.welcome {
+    margin-top: 132px;
+    margin-left: 283px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.acc {
+    margin-top: -8px;
+    margin-left: 284px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.Email {
+    height: 42px;
+    width: 358px;
+    border-radius: 20px;
+    border: 1px solid #6B6B6B;
+    font-size: 19px;
+    font-family: "Montserrat";
+    margin-top: 7px;
+    margin-left: 283px;
+}
+
+.password {
+    height: 42px;
+    width: 358px;
+    border-radius: 20px;
+    border: 1px solid #6B6B6B;
+    font-size: 19px;
+    font-family: "Montserrat";
+    margin-top: 63px;
+    margin-left: 283px;
+    display: flex;
+}
+
+.vector {
+    margin-top: -30px;
+    margin-left: 659px;
+    display: flex;
+}
+
+.continue {
+    height: 42px;
+    width: 358px;
+    border-radius: 20px;
+    border: 1px solid #6B6B6B;
+    font-size: 19px;
+    font-family: "Montserrat";
+    margin-top: 42px;
+    margin-left: 283px;
+    display: flex;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(66, 133, 245, 1);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.continue_img {
+    font-size: 14px;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+
+.line1 {
+    margin-top: 28px;
+    margin-left: 302px;
+    height: 1px;
+    width: 86px;
+}
+
+.line2 {
+    align-items: center;
+    justify-content: center;
+    margin-top: 28px;
+    margin-left: 9px;
+    height: 1px;
+    width: 86px;
+}
+
+.continuediv {
+    display: flex;
+    margin-left: 4px;
+}
+
+.remember {
+    display: flex;
+    margin-top: -24px;
+}
+
+.radio {
+    margin-top: 62px;
+    margin-left: 293px;
+    cursor: pointer;
+    /* background-color: rgba(232,232,232,1); */
+}
+
+.forgot {
+    margin-top: 77px;
+    margin-left: 63px;
+    text-decoration: none;
+    color:rgba(44, 82, 130, 1);
+
+}
+
+.rem_text {
+    display: flex;
+    margin-top: 78px;
+    margin-left: 3px;
+}
+
+.images {
+    display: flex;
+}
+
+.google {
+    margin-top: -3px;
+    margin-left: 365px;
+    height: 20px;
+    width: 26px;
+}
+
+.vector_img {
+    margin-top: -3px;
+    margin-left: 64px;
+    height: 20px;
+    width: 18px;
+}
+
+.github {
+    margin-top: -5px;
+    margin-left: 69px;
+    height: 20px;
+    width: 21px;
+}
+
+.already {
+    margin-top: 57px;
+    margin-left: 354px;
+}
+.now{
+    text-decoration: none;
+    color:rgba(43, 108, 176, 1)
+}

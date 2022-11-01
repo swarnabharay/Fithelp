@@ -39,7 +39,8 @@ const LandingBanner1 = () => {
                 </div>
             </div>
         </>
-    );
+     );
 };
 
 export default LandingBanner1;
+
