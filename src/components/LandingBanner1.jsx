@@ -35,6 +35,7 @@ const LandingBanner1 = () => {
                     <div className="landing_welcome_imagediv">
                         <img src={WelcomeImage} alt="welcome" />
                     </div>
+                    
                 </div>
             </div>
         </>
