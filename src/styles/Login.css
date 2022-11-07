@@ -1,0 +1,76 @@
+.login_parent{
+    display: flex;
+    
+    
+}
+h6{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+.image{
+    width: 60vw;
+}
+.wb{
+    margin-bottom: 0%;
+    font-weight: lighter;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+.header{
+    font-weight:bolder;
+}
+.h4{
+    margin: 0;
+    text-size-adjust: 5%;
+}
+.email{
+    
+    margin-bottom: 1rem;;
+    border-radius: 25px;
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+.form{
+    margin-bottom: 1rem;
+    justify-content: space-evenly;
+}
+.remem{
+    /* display: flex;
+    flex-direction: row; */
+    margin-bottom: 3rem;
+ }
+ .button_continue{
+    /* border-radius: 50%; */
+    margin-top: 2rem;
+ }
+ 
+ .for{
+    margin-left: 5rem;
+    font-weight: lighter;
+ }
+ .orc{
+    text-align: center;
+    font:"Montserrat";
+    margin-top: 0.5rem;
+
+
+ }
+ .icons{
+    display: flex;
+    flex-direction: row;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+ }
+  .jn{
+    display: flex;
+    margin-top: 2rem;
+    margin-right: 1rem;
+  } 
+  .da{
+    margin-right: 0.5rem;
+  }
